@@ -2,8 +2,7 @@
 ## Install Atlassian (PostgreSQL, Jira)
 
 ### Build
-	sudo docker build -t ugoarangino/atlassian:latest atlassian
-	sudo docker build -t ugoarangino/atlassian-jira:6.3.4 jira
+	sudo docker build -t ugoarangino/atlassian-jira:latest .
 
 ### Run
 Postgres
