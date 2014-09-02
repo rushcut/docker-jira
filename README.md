@@ -7,8 +7,11 @@
 
 ### Run
 Postgres
+
 	sudo docker run --name postgres -d --restart="always" postgres
+
 Atlassian Jira
+
 	sudo docker run --name jira --link postgres:postgres -d --restart="always" ugoarangino/atlassian-jira
 
 ### Initialise DB
